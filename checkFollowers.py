@@ -15,3 +15,5 @@ for follower in followers_json["relationships_followers"]:
 
 for user in following_list:
     print(user)
+
+print('{} accounts are not following you back'.format(len(following_list)))
